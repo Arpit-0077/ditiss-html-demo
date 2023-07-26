@@ -2,7 +2,7 @@ FROM python
 WORKDIR /src
 RUN pip install flask
 COPY . .
-EXPOSE 6090
+EXPOSE 4000
 CMD python server.py
 
 
